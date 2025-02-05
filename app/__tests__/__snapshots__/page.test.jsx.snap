@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page renders homepage unchanged 1`] = `
+<div>
+  <header>
+    <h1>
+      my Heading
+    </h1>
+  </header>
+  <main
+    class="flex flex-col gap-8 row-start-2 items-center sm:items-start"
+  >
+    <div>
+      Main information
+    </div>
+    <div>
+      this change
+    </div>
+  </main>
+  <footer
+    class="row-start-3 flex gap-6 flex-wrap items-center justify-center"
+  >
+    My footer
+  </footer>
+</div>
+`;
