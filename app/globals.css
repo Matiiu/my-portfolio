@@ -5,17 +5,17 @@
 :root {
 	--background: #ffffff;
 	--foreground: #171717;
+	--primary: oklch(0.702 0.183 293.541);
+	--secondary: oklch(0.606 0.25 292.717);
+	--tertiary: oklch(0.541 0.281 293.009);
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--background: #0a0a0a;
 		--foreground: #ededed;
+		--primary: oklch(0.702 0.183 293.541);
+		--secondary: oklch(0.606 0.25 292.717);
+		--tertiary: oklch(0.541 0.281 293.009);
 	}
-}
-
-body {
-	color: var(--foreground);
-	background: var(--background);
-	font-family: Arial, Helvetica, sans-serif;
 }
